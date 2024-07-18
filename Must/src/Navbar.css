@@ -1,0 +1,32 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Change justify-content to flex-start */
+  margin: 20px 170px;
+  position: relative;
+}
+.nav-menu {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+  font-size: 20px;
+  margin-left: auto; /* Add this line to move the contents to the far right */
+}
+
+.logo-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 100px; /* Adjust the width to your desired size */
+  height: auto; /* Maintain aspect ratio */
+}
+.nav-connect {
+  padding: 20px;
+  border-radius: 50px;
+  background: linear-gradient(267deg, #da7c25 0.36%, #b923e1 102.06%);
+  font-size: 22px;
+  cursor: pointer;
+  margin-left: auto; /* Add this line to push it to the right */
+}
